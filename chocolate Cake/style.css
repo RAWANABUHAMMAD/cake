@@ -7,34 +7,46 @@
 .cake .part1{
     
     text-align: center;
-    margin: 30px; px;  
+    margin: 20px; 
     }
     
-
 .cake  .title {
     background-color:rgb(73, 34, 34);
     color: white;
     text-align: center; } 
    
-      .cake .sub{
+.cake .sub{
     background-color:brown ;
     text-align: center;
    }
-    
+  .cake .sub :hover
+  {cursor: pointer;
+  }  
 
 .cake .Ingredient{
    background-color:antiquewhite;
-   margin:30px ;
+   margin:20px ;
  }
 
-
-
- 
 .cake .step {
    background-color:antiquewhite;
-   margin: 30px; ;
+   margin: 20px; ;
  
 }
+.cake .resources
+{
+   background-image: url(cake2.jpg)   ;
+    padding: 200px;
+    margin: 10px;  
+    color:white ;
+    text-align: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+   .cake .resources:hover{
+    transform: translateY(30px);
+    
+   } 
 
 
 
